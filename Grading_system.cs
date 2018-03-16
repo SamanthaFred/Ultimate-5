@@ -67,6 +67,43 @@ namespace Grading_system
                 Console.WriteLine("Below Average");
             }
 
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("MUBS Primary School - Nakawa");
+
+            Console.WriteLine("HERE IS YOUR ACADEMIC TRANSCRIPT");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine(" STUDENT DETAILS");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("STUDENT IDNO :");
+            Console.WriteLine(idno);
+            Console.WriteLine("NAME :");
+            Console.WriteLine(Name);
+            Console.WriteLine("SEX :");
+            Console.WriteLine(Sex);
+            Console.WriteLine("CLASS :");
+            Console.WriteLine(Class);
+            Console.WriteLine("AGE :");
+            Console.WriteLine(Age);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("SUBJECTS");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("ENGLISH :");
+            Console.WriteLine(ENG);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("MATHEMATICS:");
+            Console.WriteLine(MATH);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("SOCIAL STUDIES:");
+            Console.WriteLine(SST);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("SCIENCE:");
+            Console.WriteLine(SCI);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("AVERAGE MARK:");
+            Console.WriteLine(Mark);
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("WILFRED OYOO");
             Console.ReadLine();
         }
     }
